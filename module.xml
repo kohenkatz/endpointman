@@ -153,7 +153,7 @@
 			<field name="cfg_ver" type="string" length="255"/>
 			<field name="hidden" type="integer" default="0"/>
 			<field name="firmware_vers" type="string" length="255" default="" />
-			<field name="firmware_files" type="text"/>
+			<field name="firmware_files" type="text" default="" />
 			<field name="config_files" type="text" notnull="false"/>
 			<field name="special_cfgs" type="blob"/>
 		</table>
